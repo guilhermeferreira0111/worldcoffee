@@ -1,0 +1,256 @@
+<html>
+    <head>
+        <title>Cookies</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximus-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <div class="center">
+            <div class="logo"><img src="logo.png"width="110px" alt=""></div><!--logo-->
+            <div class="menu">
+                
+                <ul>
+                    <li> <a href="home.html">Home</a> </li>
+                    <li><a href="about.html">About</a></li>
+                     <li><a href="menu.html">Menu</a></li>
+                     <li><a href="whatsnew.html">Responsibility </a></li>
+                     <li><a href="registar.html">Sign up</a></li>
+                </ul>
+                
+            </div><!--menu-->
+            </div><!--center-->
+        </header>
+        <img src="cookiesfundo.jpeg" alt="Minha Imagem" class="imagem-redimensionada">
+        </div>
+
+                    <div class="logo-name">
+                        <span style="color:#714a01">WorldCoffee</span>
+
+                    </div>
+            <!--teste-->
+
+                <!-- Contêiner para os Cards -->
+    <div class="card-container">
+
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="cookiestrad.jpeg" alt="Imagem do Card 1">
+            <div class="card-content">
+                <div class="card-title">Tradicional</div>
+                <div class="card-description">Um cookie clássico, assado até a perfeição, com pedaços generosos de chocolate derretido, oferecendo uma explosão de sabores suaves e indulgentes.
+                  </div>
+                <a href="registar.html" class="btn">1,00€</a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="cookiechoc.jpeg" alt="Imagem do Card 2">
+            <div class="card-content">
+                <div class="card-title"> Chocolate</div>
+                <div class="card-description"> Um cookie repleto de chocolate, crocante por fora e macio por dentro, é o deleite perfeito para os amantes do chocolate. Cada mordida é uma explosão de prazer.
+                  </div>
+                <a href="registar.html" class="btn">2,50€</a>
+            </div>
+        </div>
+
+    </div>
+              
+
+      <style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+nav {
+    padding: 20px;
+    margin-top: 10px ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.fundo{
+      margin-top: -65px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding:0 2%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.center-text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+
+header{
+    height: 200px;
+    padding:20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+    
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom:-440px;
+    right:-470px;
+    width:950px;
+    height:950px;
+    border-radius:50%;
+    background-color:#714a01;
+}
+
+.social-media{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    width: 20px;
+    margin: 20px 0;
+}
+
+.logo-name {
+    position: relative;
+    font-size: 25px;
+    margin-top: -720px;
+    margin-left: 12%;
+    font-weight: bold;
+}
+
+.logo-fundo{
+    position: absolute;
+    bottom:-450;
+    right:700;
+    width:900px;
+    height:1000px;
+
+}
+
+.imagem-redimensionada {
+    margin-top: -69px;
+            width: 380px;
+            height: 650px;
+        }
+
+
+
+
+/*--bebidas--*/
+
+     /* Estilos CSS básicos para o card e contêiner */
+     .card-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
+  justify-content: center; /* Centraliza os cards horizontalmente */
+  margin: 20px auto; /* Ajusta a margem para centralizar verticalmente */
+  margin-left: 300px;
+  margin-top: 90px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px; /* Largura do card */
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 215px;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  color: #555;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.btn {
+  background-color: #714a01;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+      </style>
+
+
+</html>

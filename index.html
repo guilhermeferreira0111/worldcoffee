@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>WorldCoffee</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximus-scale=1.0">
+        <meta charset="UTF-8">
+     <!-- Adicione isso no cabeçalho da sua página -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    </head>
+    <body>
+        <header>
+            <div class="center">
+            <div class="logo"><img src="assets/logo.png"width="110px" alt=""></div><!--logo-->
+            <div class="menu">
+                
+                <ul>
+               <li> <a href="assets/home.html">Home</a> </li>
+               <li><a href="assets/about.html">About</a></li>
+                <li><a href="assets/menu.html">Menu</a></li>
+                <li><a href="assets/whatsnew.html">Responsibility </a></li>
+                <li><a href="assets/registar.html">Sign up</a></li>
+                </ul>
+                
+            </div><!--menu-->
+            </div><!--center-->
+            
+<!-- Adicione isso no corpo da sua página -->
+<div class="carousel-container">
+    <div class="carousel">
+        <img src="assets/cafecarrossel.jpeg" alt="Image 1">
+        <img src="assets/espressocarrossel.jpeg" alt="Image 2">
+        <img src="assets/cappuccino.jpeg" alt="Image 3">
+        <img src="assets/cafecssl.jpeg" alt="Image 4">
+        <!-- Adicione mais imagens conforme necessário -->
+    </div>
+</div>
+        </header>
+        <section class="sobre">
+      
+            </div><!--extras-->
+            <div class="center-text">
+                <div class="texto-sobre">
+                    <h1>It's not just Coffee <br><span style="color:#714a01;">It's WorldCoffee</span></h1>
+                    <p>Adentre nosso espaço e entregue-se à sinfonia de aromas e sabores que preparamos para você. Cada xícara é uma obra-prima, cuidadosamente elaborada para proporcionar uma experiência única.
+
+                        De blends ousados a opções mais clássicas, nosso café é o cenário perfeito para encontros, reflexões solitárias ou simplesmente para apreciar o prazer de uma boa xícara de café. Seja bem-vindo ao nosso refúgio, onde o sabor encontra o aconchego.</p>
+             
+
+                    <div class="logo-name">
+                        <span style="color:#714a01">WorldCoffee</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </section>
+        
+   <style>
+    .carousel-container{
+        width: 550px;
+        margin-left: 800px;
+        height: 600px;
+        margin-top: 7px;
+    }
+   </style>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <script>
+        // Adicione este script no final do corpo HTML
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true, // Habilita o autoplay
+                autoplaySpeed: 2000, // Define o intervalo entre as mudanças de imagem em milissegundos (por exemplo, 2000ms = 2 segundos)
+            });
+        });
+    </script>
+
+</html>

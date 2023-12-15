@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+nav {
+    padding: 20px;
+    margin-top: 10px ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.fundo{
+      margin-top: -65px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding:0 2%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.center-text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+
+header{
+    height: 200px;
+    padding:20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+    
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom:-440px;
+    right:-470px;
+    width:950px;
+    height:950px;
+    border-radius:50%;
+    background-color:#714a01;
+}
+
+.social-media{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    width: 20px;
+    margin: 20px 0;
+}
+
+.texto-sobre{
+    margin-top: 100px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+    margin-top: -140px;
+    margin-left: 5%;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: gray;
+    font-size: 17px;
+    font-weight: bold;
+    max-width: 700px;
+    margin-left: 5%;
+}
+
+
+.logo-name {
+    position: relative;
+    font-size: 25px;
+    margin-top: -408px;
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+.logo-fundo{
+    position: absolute;
+    bottom:-450;
+    right:700;
+    width:900px;
+    height:1000px;
+
+}
+

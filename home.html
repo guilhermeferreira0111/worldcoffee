@@ -1,0 +1,239 @@
+<html>
+    <head>
+        <title>WorldCoffee</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximus-scale=1.0">
+        <meta charset="UTF-8">
+     <!-- Adicione isso no cabeçalho da sua página -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    </head>
+    <body>
+        <header>
+            <div class="center">
+            <div class="logo"><img src="logo.png"width="110px" alt=""></div><!--logo-->
+            <div class="menu">
+                
+                <ul>
+               <li> <a href="home.html">Home</a> </li>
+               <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="whatsnew.html">Responsibility </a></li>
+                <li><a href="registar.html">Sign up</a></li>
+                </ul>
+                
+            </div><!--menu-->
+            </div><!--center-->
+            
+<!-- Adicione isso no corpo da sua página -->
+<div class="carousel-container">
+    <div class="carousel">
+        <img src="cafecarrossel.jpeg" alt="Image 1">
+        <img src="espressocarrossel.jpeg" alt="Image 2">
+        <img src="cappuccino.jpeg" alt="Image 3">
+        <img src="cafecssl.jpeg" alt="Image 4">
+        <!-- Adicione mais imagens conforme necessário -->
+    </div>
+</div>
+        </header>
+        <section class="sobre">
+      
+            </div><!--extras-->
+            <div class="center-text">
+                <div class="texto-sobre">
+                    <h1>It's not just Coffee <br><span style="color:#714a01;">It's WorldCoffee</span></h1>
+                    <p>Adentre nosso espaço e entregue-se à sinfonia de aromas e sabores que preparamos para você. Cada xícara é uma obra-prima, cuidadosamente elaborada para proporcionar uma experiência única.
+
+                        De blends ousados a opções mais clássicas, nosso café é o cenário perfeito para encontros, reflexões solitárias ou simplesmente para apreciar o prazer de uma boa xícara de café. Seja bem-vindo ao nosso refúgio, onde o sabor encontra o aconchego.</p>
+             
+
+                    <div class="logo-name">
+                        <span style="color:#714a01">WorldCoffee</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </section>
+        
+   <style>
+    .carousel-container{
+        width: 550px;
+        margin-left: 800px;
+        height: 600px;
+        margin-top: 7px;
+    }
+    *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+nav {
+    padding: 20px;
+    margin-top: 10px ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.fundo{
+      margin-top: -65px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding:0 2%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.center-text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+
+header{
+    height: 200px;
+    padding:20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+    
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom:-440px;
+    right:-470px;
+    width:950px;
+    height:950px;
+    border-radius:50%;
+    background-color:#714a01;
+}
+
+.social-media{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    width: 20px;
+    margin: 20px 0;
+}
+
+.texto-sobre{
+    margin-top: 100px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+    margin-top: -140px;
+    margin-left: 5%;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: gray;
+    font-size: 17px;
+    font-weight: bold;
+    max-width: 700px;
+    margin-left: 5%;
+}
+
+
+.logo-name {
+    position: relative;
+    font-size: 25px;
+    margin-top: -405px;
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+.logo-fundo{
+    position: absolute;
+    bottom:-450;
+    right:700;
+    width:900px;
+    height:1000px;
+
+}
+
+
+   </style>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <script>
+        // Adicione este script no final do corpo HTML
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true, // Habilita o autoplay
+                autoplaySpeed: 2000, // Define o intervalo entre as mudanças de imagem em milissegundos (por exemplo, 2000ms = 2 segundos)
+            });
+        });
+    </script>
+
+</html>
